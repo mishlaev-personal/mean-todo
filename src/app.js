@@ -5,6 +5,7 @@ var router = require('./api');
 
 var app = express();
 
+// connecting mongoose
 require('./database');
 
 app.use('/', express.static('public'));
